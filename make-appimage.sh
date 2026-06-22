@@ -7,7 +7,7 @@ export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=https://github.com/gopher64/gopher64/blob/main/data/icon/gopher64_256x256.png
+export ICON=https://raw.githubusercontent.com/gopher64/gopher64/refs/heads/main/data/icon/gopher64_256x256.png
 export DESKTOP=https://raw.githubusercontent.com/flathub/io.github.gopher64.gopher64/refs/heads/master/io.github.gopher64.gopher64.desktop
 export DEPLOY_VULKAN=1
 export DEPLOY_PULSE=1
