@@ -14,7 +14,6 @@ export DEPLOY_PULSE=1
 
 # Deploy dependencies
 quick-sharun ./AppDir/bin/*
-echo 'SDL_AUDIODRIVER=pulseaudio' >> ./AppDir/.env
 
 # Additional changes can be done in between here
 
